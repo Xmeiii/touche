@@ -75,9 +75,9 @@
       </div>
       <div class="col-xs-12 col-md-6">
         <div class="about-text">
-          <h2>Câu chuyện của chúng tôi</h2>
+          <h2>Our story</h2>
           <hr>
-          <p>Con người, thức ăn và đồ uống những vị trí đắc địa khiến Touché trở thành nơi hoàn hảo để bạn bè và gia đình đến bên nhau và có khoảng thời gian tuyệt vời. Mỗi khi bạn dùng bữa với chúng tôi một cách hoàn hảo, bạn sẽ rất vui vì những món ăn tuyệt vời đầy cảm hứng trong một môi trường được thiết kế với những nét riêng độc đáo của khu vực địa phương</p>
+          <p>The people, food and drinks and prime locations make Touché the perfect place for friends and family to come together and have a great time. Every time you dine with us, you will be delighted by our wonderfully inspired dishes in an environment designed with the unique touches of the local area.</p>
         </div>
       </div>
     </div>
@@ -89,7 +89,7 @@
     <div class="section-title text-center">
       <h2>Reservation Form</h2>
       <hr>
-      <p>Đặt bàn ngay hôm nay để trải nghiệm ẩm thực tuyệt vời!</p>
+      <p>Book your table today for a great culinary experience!</p>
     </div>
     <div class="col-md-8 col-md-offset-2">
       <form id="reservationForm">
@@ -126,13 +126,14 @@
     </div>
   </div>
 </div>
+
 <!-- Restaurant Menu Section -->
 <div id="restaurant-menu">
   <div class="section-title text-center center">
     <div class="overlay">
       <h2>Menu</h2>
       <hr>
-      <p>Kiên nhẫn là bí quyết để có món ăn ngon</p>
+      <p>Patience is the secret to delicious food</p>
     </div>
   </div>
   <div class="container">
@@ -236,7 +237,7 @@
     <div class="overlay">
       <h2>Gallery</h2>
       <hr>
-      <p>Tạo Ra Những Món Ăn Ngon Hấp Dẫn Đến Với Khách Hàng</p>
+      <p>Creating Delicious and Attractive Dishes for Customers</p>
     </div>
   </div>
   <div class="container">
@@ -369,6 +370,81 @@
     </div>
   </div>
 </div>
+<!-- Online Ordering Section -->
+<div id="order-section">
+  <div class="container">
+    <div class="section-title text-center">
+      <h2>Online Ordering</h2>
+      <hr>
+      <p>Let us deliver to you the best dishes</p>
+    </div>
+
+    <form id="order-form">
+      <!-- Menu Items -->
+      <div class="menu">
+        <div class="menu-item">
+          <input type="checkbox" id="item2">
+          <label for="item2">
+            Cơm chiên Dương châu
+            <span class="price">50.000 VND</span>
+          </label>
+          <input type="number" value="0">
+        </div>
+
+        <div class="menu-item">
+          <input type="checkbox" id="item3">
+          <label for="item3">
+            Cánh gà rán
+            <span class="price">70.000 VND</span>
+          </label>
+          <input type="number" value="0">
+        </div>
+
+        <div class="menu-item">
+          <input type="checkbox" id="item4">
+          <label for="item4">
+            Bò lá lốt
+            <span class="price">100.000 VND</span>
+          </label>
+          <input type="number" value="0">
+        </div>
+
+        <div class="menu-item">
+          <input type="checkbox" id="item5">
+          <label for="item5">
+            Nem nướng Ninh Hòa
+            <span class="price">90.000 VND</span>
+          </label>
+          <input type="number" value="0">
+        </div>
+      </div>
+
+      <!-- Customer Information -->
+      <div id="customer-info">
+        <h3>Customer information</h3>
+
+        <div class="form-group">
+          <label for="customerName">Your name</label>
+          <input type="text" id="customerName">
+        </div>
+
+        <div class="form-group">
+          <label for="contactNumber">Phone</label>
+          <input type="text" id="contactNumber">
+        </div>
+
+        <div class="form-group">
+          <label for="deliveryAddress">Address</label>
+          <input type="text" id="deliveryAddress">
+        </div>
+      </div>
+
+      <!-- Submit Button -->
+      <button type="submit" class="order-button">Order now</button>
+    </form>
+  </div>
+</div>
+
 <!-- Team Section -->
 <div id="team" class="text-center">
   <div class="overlay">
@@ -376,7 +452,7 @@
       <div class="col-md-10 col-md-offset-1 section-title">
         <h2>Meet Our Chefs</h2>
         <hr>
-        <p>Chúng tôi với sứ mệnh mang đến những món ăn tốt nhất</p>
+        <p>We are on a mission to bring the best dishes</p>
       </div>
       <div id="row">
         <div class="col-md-4 team">
@@ -384,7 +460,7 @@
             <div class="team-img"><img src="img/team/01.jpg" alt="..."></div>
             <div class="caption">
               <h3>Mike Doe</h3>
-              <p>Với 10 năm kinh nghiệm đầu bếp tại Pháp</p>
+              <p>With 10 years of experience as a chef in France</p>
             </div>
           </div>
         </div>
@@ -393,7 +469,7 @@
             <div class="team-img"><img src="img/team/02.jpg" alt="..."></div>
             <div class="caption">
               <h3>Chris Doe</h3>
-              <p>Với 3 năm kinh nghiệm đầu bếp tại Anh</p>
+              <p>With 3 years of experience as a chef in the UK</p>
             </div>
           </div>
         </div>
@@ -401,31 +477,18 @@
           <div class="team-img"><img src="img/team/03.jpg" alt="..."></div>
           <div class="caption">
             <h3>Ethan Doe</h3>
-            <p>Với 2 kinh nghiệm đầu bếp tại Hàn</p>
+            <p>With 2 experiences as a chef in Korea</p>
           </div>
         </div>
       </div>
     </div>
   </div>
 </div>
-<!--  khung chat ảo -->
-<div id="chat-container" class="chat-container">
-  <div id="chat-header" class="chat-header">
-      <h3>Virtual Assistant</h3>
-      <button id="close-chat" class="close-chat-btn">Close</button>
-  </div>
-  <div id="chat-body" class="chat-body">
-      <div id="welcome-message" class="chat-message received">Hello! How can I help you today?</div>
-  </div>
-  <div id="chat-input" class="chat-input">
-      <input type="text" id="user-input" placeholder="Type your message...">
-      <button id="send-btn" class="send-btn">Send</button>
-  </div>
-</div>
+
 <!-- Call Reservation Section -->
 <div id="call-reservation" class="text-center">
   <div class="container">
-    <h2>Hãy gọi cho tôi khi bạn cần! <strong>0123.456.789</strong></h2>
+    <h2>Call me when you need me!<strong>0123.456.789</strong></h2>
   </div>
 </div>
 <!-- Contact Section -->
@@ -434,7 +497,7 @@
     <div class="section-title text-center">
       <h2>Contact Form</h2>
       <hr>
-      <p>Hãy để lại thông tin, chúng tôi sẽ phản hồi nhanh nhất.</p>
+      <p>Please leave your information, we will respond as quickly as possible.</p>
     </div>
     <div class="col-md-10 col-md-offset-1">
       <form name="sentMessage" id="contactForm" novalidate>
